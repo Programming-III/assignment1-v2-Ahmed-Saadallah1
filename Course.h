@@ -1,6 +1,6 @@
 #ifndef COURSE_H
 #define COURSE_H
-#include <iostrem>
+#include <iostream>
 #include <string>
 #include "Student.h"
 using namespace std;
@@ -20,11 +20,6 @@ Course(string courseCode ,string courseName , int maxStudents ,Student* students
 Course();
 ~Course();
 void addStudent(const Student& s);
-displayCourseInfo();
+void displayCourseInfo();
 };
 #endif
-
-
-
-
-
