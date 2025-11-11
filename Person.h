@@ -8,17 +8,15 @@ class Person {
 
     private :
     string name ;
-    int id :
+    int id ;
 
     public : 
-
+    string getName();
+    int getId();
     Person();
     Person (string name , int id );
    ~Person ();
-display();
+void display();
 
 };
 #endif
-
-
-
