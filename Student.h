@@ -5,14 +5,14 @@
 #include "Person.h"
 
 #using namespace std;
- class Student {
+ class Student : public Person {
 
 private :
 int yearLevel;
 string major;
 
 public :
-Student (int yearLevel , string major );
+Student (string name , int id , int yearLevel , string major );
 Student ();
 ~Student();
 display();
