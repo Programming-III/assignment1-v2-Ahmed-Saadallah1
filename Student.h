@@ -4,7 +4,7 @@
 #include <iostream>
 #include "Person.h"
 
-#using namespace std;
+using namespace std;
  class Student : public Person {
 
 private :
@@ -15,23 +15,9 @@ public :
 Student (string name , int id , int yearLevel , string major );
 Student ();
 ~Student();
-display();
+void display();
 
 };
 #endif
 
-//#write student class here
-
-
-
-
-
-
-
-
-
-
-
-
-
-#endif
+//#write student 
