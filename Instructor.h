@@ -15,10 +15,6 @@ public :
 Instructor (string name , int id ,string department , int experienceYears);
 Instructor ();
 ~Instructor ();
-display();
+void display();
 };
 #endif
-
-
-
-
