@@ -15,6 +15,7 @@ class Person {
     Person();
     Person (string name , int id );
    ~Person ();
+display();
 
 };
 #endif
